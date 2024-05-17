@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.cabecalho {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    
+}
+
+.cabecalho img {
+    height: 200px;
+    width: 200px;
+    padding-bottom: 400px;
+}
+
+
+
+.banner {
+    height: 200px;
+    padding-bottom: 300px;
+    background-image: url(../img/Destaque_simples_1100x.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    justify-content: left;
+    align-items:left;
+    display: flex;
+    font-size: 20px;
+    color:#604138;
+}
+
+.precos {
+    background-color:#E6C7BA;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    font-size: 30px;
+    
+}
+
+.precos img {
+    border-radius: 200px;
+}
+
+.cadastro {
+    text-align: center;
+    background-color:#C69788;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+    
+}
+
+.imgfinal {
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    background-color: black;
+}
+
+.rodape {
+    background-color: black;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width:425px) {
+
+    .cabecalho {
+        width: 100%;
+        
+    }
+
+    .precos img {
+        ;
+    }
+}
